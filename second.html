@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playtesting</title>
+</head>
+<body>
+    <img id="startPosGameplay" src="media/gdeditor.jpg" width="800px" height="600px">
+    <button onclick="butHeresTheSwitcher()">Save & Play</button>
+    <button onclick="butHeresTheReverter()">Return to Editor</button>
+    <script>
+        function butHeresTheSwitcher() {
+            startPosGameplay.src="media/gdeditorgameplay.jpg"
+        }
+        function butHeresTheReverter() {
+            startPosGameplay.src="media/gdeditor.jpg"
+        }
+    </script>
+</body>
+</html>
